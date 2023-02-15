@@ -40,7 +40,7 @@ namespace Tarea_2___Segundo_Semestre
             x.Telefono= txtTelefono1.Text;
             x.FechaNacimiento = DateTime.Parse("2003/01/01");
             
-            lblImprimir.Text = "Tu nombre es " + x.Nombre + ", tienes " + x.Edad + " años, y tu número de teléfono es " + x.Telefono + ".";
+            lblImprimir.Text = x.ToString();
         
         }
     }
